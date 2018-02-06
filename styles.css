@@ -1,0 +1,149 @@
+
+
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+
+.button {
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: up;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    cursor: pointer;
+margin-top:0px;
+margin-left:0px;
+
+}
+.butto{
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: up;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    cursor: pointer;
+margin-top:0px;
+margin-left:0px;
+}
+#a{
+position:absolute;
+color:black;
+margin-left:1200px;
+
+}
+#b{
+text-decoration:none;
+color:white;
+}
+
+div#lay{
+	position:absolute;top:0;left:0;
+		height:100%;
+	width:100%;
+	background:#303030;
+	background-color:rgba(0,0,0,.7);
+	z-index:1;
+	
+}
+#se{
+	position:absolute;top:40%;left:20%;width:60%;
+	transition:.2s;
+	-webkit-transition:.2s;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	}
+input[name="search_keywords"]{
+	z-index:1000;
+	background:white;
+	
+	padding:0px;box-shadow:0px 0px 70px #303030 ;
+width:80%;
+	padding:15px;
+	border:0px;font-size:1.4em;font-weight:100;font-family:calibri;
+	
+}
+#se:hover{
+	transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	
+}
+input[type="submit"]{
+	display:inline-block;
+	padding:15px;background:#337ab7;
+	color:white;
+	border:0px;
+	font-weight:bold;font-size:1.4em;
+}
+body{color:white;overflow:none;}
+@font-face {
+    font-family: ff;
+    src: url(kings/Kingthings_Wrote.ttf);
+}
+#logo{
+	position:relative;top:0px;
+	animation:logoani 1s;
+	-webkit-animation:logoani 1s;
+}
+@keyframes logoani{
+	
+	from{position:relative;top:100px;}
+	to{position:relative;top:0px;}
+}
+@-webkit-keyframes logoani{
+	
+	from{position:relative;top:100px;}
+	to{position:relative;top:0px;}
+}
+#tag{
+	position:relative;left:0px;
+	animation:tagani 2s;
+	-webkit-animation:tagani 2s;
+	animation-delay:0s;
+	opacity:1;
+}
+@keyframes tagani{
+	
+	from{position:relative;left:200px;opacity:0;}
+	to{position:relative;left:0px;opacity:1;}
+}
+@-webkit-keyframes tagani{
+	
+	from{position:relative;left:200px;opacity:0;}
+	to{position:relative;left:00px;opacity:1;}
+}
+
+ body{
+
+ 	margin:0;
+ 	padding:0;
+ 	background-color:#eeeeee;
+
+
+ }
+
+ b{
+
+ 	color:#663D99;
+ }
+
+ .text-danger{
+
+ 	color:#3A1C00;
+ }
+ 
+ #topbanner{display:block;width:100%;padding:8px;background:#303030; position:fixed;top:0;z-index:10000;box-shadow:0px 0px 0px #303030;}
+ #topbanner2
+ {
+ 	display:block;width:100%;padding:10px;background:white; box-shadow:0px 0px 0px #303030;}
